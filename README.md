@@ -1,6 +1,6 @@
 # contador
 <div align="center">
-  <h1>Contador</h1>
+  <h1>Contador / Accountant</h1>
   
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-0.0.1-blue.svg?cacheSeconds=2592000" />
