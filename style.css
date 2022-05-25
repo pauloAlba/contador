@@ -38,7 +38,7 @@ body{
 header{
     display: flex;
     flex-direction: column;
-    height: 45%;
+    height: 40%;
     background-color: lightgray;
     border-radius: 5%;
     justify-content: center;
@@ -91,6 +91,9 @@ main{
     justify-content: space-evenly;
     background-color: #E1E1E1;
     border-radius: 10px;
+}
+.btn-num:hover{
+    background-color: #383838;
 }
 .btn-contador:nth-child(1){
     width: 15%;
@@ -175,5 +178,16 @@ main{
 }
 
 footer{
+    font-style: none;
+    text-decoration: none;
+    list-style: none;
+    color: #F5F5F5;
+    height: 5%;
+}
+footer a{
+    font-style: none;
+    text-decoration: none;
+    list-style: none;
+    color: #62D65F;
     height: 5%;
 }
