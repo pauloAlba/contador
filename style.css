@@ -1,0 +1,179 @@
+/* cores
+    preto: #383838
+    vermelho: #F56969
+    verde: #62D65F
+    branco1: #F5F5F5
+    branco2: #EEEEEE
+    branco3: #E1E1E1
+
+*/
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100vh;
+    padding: 2%;
+    background-color: #383838;
+    gap: 5px;
+}
+@media (min-width: 60em){
+    body{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 100vh;
+        padding: 2% 35%;
+        background-color: #383838;
+        gap: 5px;
+    }
+
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    height: 40%;
+    background-color: lightgray;
+    border-radius: 5%;
+    justify-content: center;
+}
+.zerar{
+    height: 10%;
+    width: 100%;
+    background-color: #F56969;
+    border: none;
+    color: #F5F5F5;
+    border-radius: 5px;
+}
+/* TELA */
+.container-tela{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    padding: 5%;
+    justify-content: space-evenly;
+}
+.valorTotal{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 8pt;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 20%;
+}
+.tela{
+    height: 80%;
+    background-color: #383838;
+    color: #F5F5F5;
+    overflow-y: scroll;
+    padding: 12px 0;
+}
+
+/* CALCULADORA */
+main{
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    width: 100%;
+    gap: 5px;
+}
+.container-contador{
+    display: flex;
+    width: 100%;
+    height: 20vh;
+    padding: 2%;
+    justify-content: space-evenly;
+    background-color: #E1E1E1;
+    border-radius: 10px;
+}
+.btn-contador:nth-child(1){
+    width: 15%;
+    background-color: #F56969;
+    border: none;
+    color: #F5F5F5;
+}
+.btn-contador:nth-child(2){
+    width: 60%;
+    color: #F5F5F5;
+}
+.btn-contador:nth-child(3){
+    width: 15%;
+    background-color: #62D65F;
+    border: none;
+    color: #F5F5F5;
+}
+.container-teclado{
+    display: flex;
+    padding: 3%;
+    height: 90vh;
+    width: 100%;
+    background-color: #E1E1E1;
+    border-radius: 5%;
+    gap: 2%;
+}
+
+/* Container */
+.teclado{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 60%;
+    gap: 2%;
+}
+.col{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    gap: 2%;
+}
+.zero{
+    width: 85%;
+    border-radius: 5%;
+    background-color: #F56969;
+    border: none;
+    border-radius: 5%;
+    color: #F5F5F5;
+}
+.btn-num{
+    width: 40%;
+    height: 100%;
+    background-color: #F56969;
+    border: none;
+    border-radius: 5%;
+    color: #F5F5F5;
+}
+
+/* Container */
+.adicionarRemover{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 40%;
+    gap: 2%;
+}
+.adicionarRemover > button{
+    height: 100%;
+    width: 100%;
+    border: none;
+    border-radius: 5%;
+    color: #F5F5F5;
+}
+.btn-backspace{
+    background-color: #F56969;
+}
+.btn-adicionar{
+    background-color: #62D65F;
+}
+.btn-remover{
+    background-color: #F56969;
+}
+
+footer{
+    height: 5%;
+}
