@@ -14,10 +14,8 @@
 
 
   </div border="1">
-  <h2 align="left">Versão para computador</h2>
-  <img src="https://user-images.githubusercontent.com/17308374/169598340-beb9bc48-494b-471b-889d-11c8509700de.png">
   <h2 align="left">Versão para Tablet / Smartphone</h2>
-  <img src="https://user-images.githubusercontent.com/17308374/169598395-ba797d4e-c20a-4eab-a735-ff7951436ee1.png">
+  <img src="https://user-images.githubusercontent.com/17308374/170363144-8f9b94bf-31f3-4365-ab7e-39f1746fc99e.png">
   </div>
   
  <strong>Links para o projeto:</strong>
