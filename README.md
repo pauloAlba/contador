@@ -23,8 +23,8 @@
   
  <strong>Links para o projeto:</strong>
 
-Página: [ver online](https://simpleslidetransition.netlify.app)
+Página: [ver online](https://conlist.netlify.app)
 <br>
-Design: [Figma](https://www.figma.com/file/E4fxChdSTtBGYjDFmgFJNo/Untitled?node-id=0%3A1)
+Design: [Figma](https://www.figma.com/file/jMgiVP9OphymuOAJgMqUAE/Untitled?node-id=0%3A1)
 <br>
-imagens: [pexels.com](https://www.pexels.com/pt-br/procurar/city/)
+
