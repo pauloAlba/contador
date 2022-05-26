@@ -11,6 +11,7 @@
 *{
     box-sizing: border-box;
     margin: 0;
+    font-weight: bold;
 }
 
 body{
@@ -113,6 +114,7 @@ main{
 .btn-contador:nth-child(1){
     height: 100%;
     width: 15%;
+    font-size: 14px;
     background-color: #F56969;
     border: none;
     color: #F5F5F5;
@@ -139,6 +141,7 @@ main{
     background-color: #62D65F;
     border: none;
     color: #383838;
+    font-size: 14px;
 }
 .btn-contador:nth-child(1){
     height: 100%;
@@ -202,6 +205,7 @@ main{
     border: none;
     border-radius: 5%;
     color: #383838;
+    
 }
 .btn-backspace{
     background-color: #F56969;
