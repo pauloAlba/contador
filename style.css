@@ -48,7 +48,7 @@ header{
     width: 100%;
     background-color: #F56969;
     border: none;
-    color: #F5F5F5;
+    color: #383838;
     border-radius: 5px;
 }
 /* TELA */
@@ -62,7 +62,7 @@ header{
 .valorTotal{
     display: flex;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 8pt;
+    font-size: 12px;
     justify-content: space-between;
     align-items: center;
     width: 100%;
@@ -70,7 +70,7 @@ header{
 }
 .valorTotal h2{
     color: #62D65F;
-    font-size: 18pt;
+    font-size: 32px;
    
 }
 .tela{
@@ -118,7 +118,7 @@ main{
     color: #F5F5F5;
 }
 .num{
-    font-size: 18pt;
+    font-size: 24px;
     padding: 0 3%;
     display: flex;
     justify-content: space-between;
@@ -138,7 +138,14 @@ main{
     width: 15%;
     background-color: #62D65F;
     border: none;
-    color: #F5F5F5;
+    color: #383838;
+}
+.btn-contador:nth-child(1){
+    height: 100%;
+    width: 15%;
+    background-color: #F56969;
+    border: none;
+    color: #383838;
 }
 .container-teclado{
     display: flex;
@@ -170,7 +177,7 @@ main{
     background-color: #F56969;
     border: none;
     border-radius: 5%;
-    color: #F5F5F5;
+    color: #383838;
 }
 .btn-num{
     width: 40%;
@@ -178,7 +185,7 @@ main{
     background-color: #F56969;
     border: none;
     border-radius: 5%;
-    color: #F5F5F5;
+    color: #383838;
 }
 
 /* Container */
@@ -194,7 +201,7 @@ main{
     width: 100%;
     border: none;
     border-radius: 5%;
-    color: #F5F5F5;
+    color: #383838;
 }
 .btn-backspace{
     background-color: #F56969;
