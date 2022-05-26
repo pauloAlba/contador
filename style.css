@@ -54,21 +54,27 @@ header{
 /* TELA */
 .container-tela{
     display: flex;
-    height: 100%;
+    height: 100vh;
     flex-direction: column;
     padding: 5%;
     justify-content: space-evenly;
 }
 .valorTotal{
+    display: flex;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 8pt;
-    display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
+    width: 100%;
     height: 20%;
 }
+.valorTotal h2{
+    color: #62D65F;
+    font-size: 18pt;
+   
+}
 .tela{
-    height: 80%;
+    height: 30vh;
     background-color: #383838;
     color: #F5F5F5;
     overflow-y: scroll;
@@ -91,21 +97,44 @@ main{
     justify-content: space-evenly;
     background-color: #E1E1E1;
     border-radius: 10px;
+    align-items: center;
+}
+.total{
+    color: #62D65F;
+    background-color: #383838;
+    width: 80%;
+    padding: 0 5%;
+    height: 80%;
 }
 .btn-num:hover{
     background-color: #383838;
 }
+
 .btn-contador:nth-child(1){
+    height: 100%;
     width: 15%;
     background-color: #F56969;
     border: none;
     color: #F5F5F5;
 }
-.btn-contador:nth-child(2){
-    width: 60%;
-    color: #F5F5F5;
+.num{
+    font-size: 18pt;
+    padding: 0 3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+    color: #383838;
+    background-color: #F5F5F5;
 }
+.num >{
+
+    background-color: #F5F5F5;
+}
+
 .btn-contador:nth-child(3){
+    height: 100%;
     width: 15%;
     background-color: #62D65F;
     border: none;
@@ -190,4 +219,7 @@ footer a{
     list-style: none;
     color: #62D65F;
     height: 5%;
+}
+.remover{
+    display: none;
 }
