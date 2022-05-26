@@ -57,6 +57,8 @@ function somar(){
         li.textContent = num1 + " (" + multplo + ")"
         let ul = document.querySelector("ul")
         ul.appendChild(li)
+        document.querySelector(".qtd").textContent = 1
+        
         
     } 
 }
@@ -76,6 +78,7 @@ function remover(){
             document.querySelector(".containerInput").textContent = ""
             total -= num1 * multplo
             document.querySelector(".total").textContent = total
+            document.querySelector(".qtd").textContent = 1
             }
           
         }

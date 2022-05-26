@@ -72,6 +72,7 @@ header{
 .valorTotal h2{
     color: #62D65F;
     font-size: 32px;
+    font-size: 24px;
    
 }
 .tela{
@@ -100,11 +101,24 @@ main{
     border-radius: 10px;
     align-items: center;
 }
+.totalHeader{
+    color: #1f1f1f;
+    width: 30%;
+    padding: 0 2%;
+    height: 80%;
+}
 .total{
     color: #62D65F;
     background-color: #383838;
-    width: 80%;
-    padding: 0 5%;
+    width: 75%;
+    padding: 0 2%;
+    height: 80%;
+}
+.totalCifrao{
+    color: #62D65F;
+    background-color: #383838;
+    width: 15%;
+    padding: 0 2%;
     height: 80%;
 }
 .btn-num:hover{
