@@ -51,6 +51,10 @@ header{
     border: none;
     color: #1f1f1f;
     border-radius: 5px;
+    transition: 0.1s;
+}
+.zerar:active{
+    opacity: 0.5;
 }
 /* TELA */
 .container-tela{
@@ -121,18 +125,6 @@ main{
     padding: 0 2%;
     height: 80%;
 }
-.btn-num:hover{
-    background-color: #383838;
-}
-
-.btn-contador:nth-child(1){
-    height: 100%;
-    width: 15%;
-    font-size: 14px;
-    background-color: #F56969;
-    border: none;
-    color: #F5F5F5;
-}
 .num{
     font-size: 24px;
     padding: 0 3%;
@@ -157,12 +149,35 @@ main{
     color: #1f1f1f;;
     font-size: 14px;
 }
-.btn-contador:nth-child(1){
-    height: 100%;
-    width: 15%;
+.contMais{
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    color: #1f1f1f;
+    background-color: #F56969;
+    border-radius: 5px;
+    transition: .1s
+
+}
+.contMais:active{
+    opacity: 0.5;
+}
+.contMenos{
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #1f1f1f;
     background-color: #F56969;
     border: none;
-    color: #1f1f1f;
+    border-radius: 5px;
+    transition: 0.1s
+
+}
+.contMenos:active{
+    opacity: 0.5;
+    
 }
 .container-teclado{
     display: flex;
@@ -173,6 +188,7 @@ main{
     border-radius: 5%;
     gap: 2%;
 }
+
 
 /* Container */
 .teclado{
@@ -195,6 +211,15 @@ main{
     border: none;
     border-radius: 5%;
     color: #1f1f1f;
+    transition: 0.1s;
+}
+.zero:active{
+    opacity: 0.5;
+    
+}
+.contMenos:active{
+    opacity: 0.5;
+    
 }
 .btn-num{
     width: 40%;
@@ -203,8 +228,12 @@ main{
     border: none;
     border-radius: 5%;
     color: #1f1f1f;
+    transition: 0.1s;
 }
-
+.btn-num:active{
+    opacity: 0.5;
+    
+}
 /* Container */
 .adicionarRemover{
     display: flex;
@@ -213,6 +242,7 @@ main{
     width: 40%;
     gap: 2%;
 }
+
 .adicionarRemover > button{
     height: 100%;
     width: 100%;
@@ -223,14 +253,25 @@ main{
 }
 .btn-backspace{
     background-color: #F56969;
+    transition: 0.1s;
+}
+.btn-backspace:active{
+    opacity: 0.5;
 }
 .btn-adicionar{
     background-color: #62D65F;
+    transition: 0.1s;
+}
+.btn-adicionar:active{
+    opacity: 0.5;
 }
 .btn-remover{
     background-color: #F56969;
+    transition: 0.1s;
 }
-
+.btn-remover:active{
+    opacity: 0.5;
+}
 footer{
     font-style: none;
     text-decoration: none;
