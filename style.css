@@ -118,12 +118,12 @@ main{
     padding: 0 2%;
     height: 80%;
 }
-.totalCifrao{
-    color: #62D65F;
-    background-color: #383838;
-    width: 15%;
-    padding: 0 2%;
-    height: 80%;
+
+.cifra{
+    color: #1f1f1f;
+}
+.unid{
+    font-size: 14px;
 }
 .num{
     font-size: 24px;
@@ -142,7 +142,7 @@ main{
 }
 
 .contMais{
-    padding: 15px 25px;
+    padding: 10px 15px;
     cursor: pointer;
     color: #1f1f1f;
     background-color: #62D65F;
@@ -156,7 +156,7 @@ main{
     opacity: 0.5;
 }
 .contMenos{
-    padding: 15px 25px;
+    padding: 10px 15px;
     cursor: pointer;
     color: #1f1f1f;
     background-color: #F56969;

@@ -38,8 +38,10 @@ let btnAdicionar = document.querySelector(".btn-adicionar")
 let btnRemover = document.querySelector(".btn-remover")
 let btnZerar = document.querySelector(".zerar")
 
-let total = document.querySelector(".total")
+let total = document.querySelector(".total").textContent
 total = 0
+
+
 
 btnAdicionar.addEventListener("click", somar)
 btnRemover.addEventListener("click", remover)
@@ -48,20 +50,20 @@ btnZerar.addEventListener("click", zerar)
 function somar(){
     let containerInput = document.querySelector(".containerInput").textContent
     if(containerInput != ""){
-        
-        num1 = Number(containerInput)
+        num1 = Number(containerInput).toFixed(2)
         total += num1 * multplo
-        document.querySelector(".total").textContent = total
+        // adiciona formatação a variável total
+        document.querySelector(".total").textContent = total.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'});
         document.querySelector(".containerInput").textContent = ""
         let li = document.createElement("li")
-        li.textContent = num1 + " (" + multplo + ")"
+        li.textContent = "R$ " + num1 + " (" + multplo + ")"
         let ul = document.querySelector("ul")
         ul.appendChild(li)
         document.querySelector(".qtd").textContent = 1
         multplo = 1
-        
-        
+        return
     } 
+
 }
 
 function remover(){
@@ -73,33 +75,21 @@ function remover(){
     for(let i = 0; i < list.length; i++){
 
         for(li of list){
-            if(li.textContent == num1 + " (" + multplo + ")"){
+            if(li.textContent == "R$ " + num1.toFixed(2) + " (" + multplo + ")"){
             let ul = document.querySelector("ul")
             ul.removeChild(li)
             document.querySelector(".containerInput").textContent = ""
             total -= num1 * multplo
-            document.querySelector(".total").textContent = total
-            document.querySelector(".qtd").textContent = 1
+            // adiciona formatação R$ a variável total
+            document.querySelector(".total").textContent = total.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'});
+            document.querySelector(".qtd").textContent = 1 
             multplo = 1
             return
             }
           
         }
 
-
     }
-    
-    /*
-    for(let i = 0; i < list.length; i++){
-        if(list[i].value == "5"+multplo){
-            alert("okay")
-        } else {
-            alert(list)
-            return
-        }
-    }
-    */
-    
 }
 
 function zerar(){
@@ -107,9 +97,10 @@ function zerar(){
     let li = document.querySelectorAll("li")
     let list = Array.from(li)
     document.querySelector(".total").textContent = 0
-    document.querySelector(".qtd").textContent = 1
+    document.querySelector(".qtd").textContent = 1 
     for(let i = 0; i < list.length; i++){
     list[i].classList.add("remover")
+    return
 }
 }
 
@@ -132,7 +123,8 @@ btn1.addEventListener("click", digito1)
 
 function digito1 (){
     let containerInput = document.querySelector(".containerInput")
-    containerInput.textContent += 1
+    containerInput.textContent = 1
+    
 }
 
 
