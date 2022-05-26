@@ -12,6 +12,7 @@ let btnZero = document.querySelector(".zero")
 let btnDot = document.querySelector(".dot")
 
 
+
 let btnMais = document.querySelector(".contMais")
 let btnMenos = document.querySelector(".contMenos")
 let btnBackspace = document.querySelector(".btn-backspace")
@@ -34,12 +35,14 @@ btnMenos.addEventListener("click", function () {
     
 
 let btnAdicionar = document.querySelector(".btn-adicionar")
+let btnRemover = document.querySelector(".btn-remover")
 let btnZerar = document.querySelector(".zerar")
 
 let total = document.querySelector(".total")
 total = 0
 
 btnAdicionar.addEventListener("click", somar)
+btnRemover.addEventListener("click", remover)
 btnZerar.addEventListener("click", zerar)
 
 function somar(){
@@ -54,7 +57,43 @@ function somar(){
         li.textContent = num1 + " (" + multplo + ")"
         let ul = document.querySelector("ul")
         ul.appendChild(li)
+        
     } 
+}
+
+function remover(){
+    let containerInput = document.querySelector(".containerInput").textContent
+    num1 = Number(containerInput)
+    let li = document.querySelectorAll("li")
+    let list = Array.from(li)
+
+    for(let i = 0; i < list.length; i++){
+
+        for(li of list){
+            if(li.textContent == num1 + " (" + multplo + ")"){
+            let ul = document.querySelector("ul")
+            ul.removeChild(li)
+            document.querySelector(".containerInput").textContent = ""
+            total -= num1 * multplo
+            document.querySelector(".total").textContent = total
+            }
+          
+        }
+
+
+    }
+    
+    /*
+    for(let i = 0; i < list.length; i++){
+        if(list[i].value == "5"+multplo){
+            alert("okay")
+        } else {
+            alert(list)
+            return
+        }
+    }
+    */
+    
 }
 
 function zerar(){
