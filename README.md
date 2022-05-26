@@ -11,8 +11,9 @@
   <div align="left">
    Aplicativo para calculo de compras em supermercados. O aplicativo trabalha como uma to-do list, porém ao invés de palavras ele armazena e soma preços.
     Todo o design do aplicativo foi feito utilizando o figma. Você pode conferir todos os detalhes abaixo😀.
-    <br>
-    Application for calculating purchases in supermarkets. The app works like a to-do list, but instead of words, it stores and sums up prices. All app design was done         using figma. You can check all the details below😀
+ 
+    Application for calculating purchases in supermarkets. The app works like a to-do list, but instead of words, it stores and sums up prices. 
+    All app design was done using figma. You can check all the details below😀
 
 
   </div border="1">
