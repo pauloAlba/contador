@@ -71,7 +71,7 @@ header{
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    height: 20%;
+    height: 18%;
 }
 .valorTotal h2{
     color: #62D65F;
@@ -97,8 +97,8 @@ main{
 }
 .container-contador{
     display: flex;
-    width: 100%;
-    height: 20vh;
+    width: auto;
+    height: auto;
     padding: 2%;
     justify-content: space-evenly;
     background-color: #E1E1E1;
@@ -132,7 +132,7 @@ main{
     justify-content: space-between;
     align-items: center;
     height: 100%;
-    width: 50%;
+    width: 65%;
     color: #1f1f1f;;
     background-color: #F5F5F5;
 }
@@ -141,22 +141,15 @@ main{
     background-color: #F5F5F5;
 }
 
-.btn-contador:nth-child(3){
-    height: 100%;
-    width: 15%;
-    background-color: #62D65F;
-    border: none;
-    color: #1f1f1f;;
-    font-size: 14px;
-}
 .contMais{
     padding: 15px 25px;
-    font-size: 24px;
     cursor: pointer;
     color: #1f1f1f;
-    background-color: #F56969;
+    background-color: #62D65F;
+    border: none;
+    font-size: 14px;
     border-radius: 5px;
-    transition: .1s
+    transition: 0.1s
 
 }
 .contMais:active{
@@ -164,13 +157,11 @@ main{
 }
 .contMenos{
     padding: 15px 25px;
-    font-size: 24px;
-    text-align: center;
     cursor: pointer;
-    outline: none;
     color: #1f1f1f;
     background-color: #F56969;
     border: none;
+    font-size: 14px;
     border-radius: 5px;
     transition: 0.1s
 
@@ -195,7 +186,7 @@ main{
     display: flex;
     flex-direction: column;
     height: 100%;
-    width: 60%;
+    width: 74%;
     gap: 2%;
 }
 .col{
@@ -239,7 +230,7 @@ main{
     display: flex;
     flex-direction: column;
     height: 100%;
-    width: 40%;
+    width: auto;
     gap: 2%;
 }
 
@@ -249,6 +240,7 @@ main{
     border: none;
     border-radius: 5%;
     color: #1f1f1f;
+    font-size: 14px;
     
 }
 .btn-backspace{
