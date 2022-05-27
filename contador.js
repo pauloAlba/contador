@@ -104,26 +104,26 @@ function zerar(){
 }
 }
 
+
 btnBackspace.addEventListener("click", backspace)
 
 function backspace(){
-
-    words = document.querySelector(".containerInput").textContent = ""
-
-
-
+    let containerInput = document.querySelector(".containerInput").textContent
+    if(containerInput != ""){
+        let array = containerInput.slice(0,-1);
+        return document.querySelector(".containerInput").textContent = array
+    }
 }
 
+
 // botões
-
-
 
 btn1.addEventListener("click", digito1)
 
 
 function digito1 (){
     let containerInput = document.querySelector(".containerInput")
-    containerInput.textContent = 1
+    containerInput.textContent += 1
     
 }
 
