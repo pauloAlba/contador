@@ -5,6 +5,7 @@
     branco1: #F5F5F5
     branco2: #EEEEEE
     branco3: #E1E1E1
+    laranja: #ec9614
 
 */
 
@@ -47,9 +48,9 @@ header{
 .zerar{
     height: 10%;
     width: 100%;
-    background-color: #F56969;
+    background-color: #383838;
     border: none;
-    color: #1f1f1f;
+    color: #E1E1E1;
     border-radius: 5px;
     transition: 0.1s;
 }
@@ -144,8 +145,8 @@ main{
 .contMais{
     padding: 10px 15px;
     cursor: pointer;
-    color: #1f1f1f;
-    background-color: #62D65F;
+    color: #E1E1E1;
+    background-color: #25c01f;
     border: none;
     font-size: 14px;
     border-radius: 5px;
@@ -158,8 +159,8 @@ main{
 .contMenos{
     padding: 10px 15px;
     cursor: pointer;
-    color: #1f1f1f;
-    background-color: #F56969;
+    color: #E1E1E1;
+    background-color: #ec9614;
     border: none;
     font-size: 14px;
     border-radius: 5px;
@@ -198,10 +199,10 @@ main{
 .zero{
     width: 85%;
     border-radius: 5%;
-    background-color: #F56969;
+    background-color: #383838;
     border: none;
     border-radius: 5%;
-    color: #1f1f1f;
+    color: #E1E1E1;
     transition: 0.1s;
 }
 .zero:active{
@@ -215,10 +216,10 @@ main{
 .btn-num{
     width: 40%;
     height: 100%;
-    background-color: #F56969;
+    background-color: #383838;
     border: none;
     border-radius: 5%;
-    color: #1f1f1f;
+    color: #E1E1E1;
     transition: 0.1s;
 }
 .btn-num:active{
@@ -239,26 +240,27 @@ main{
     width: 100%;
     border: none;
     border-radius: 5%;
-    color: #1f1f1f;
+    color: #E1E1E1;
     font-size: 14px;
     
 }
 .btn-backspace{
-    background-color: #F56969;
+    background-color: #383838;
+    color: #E1E1E1;
     transition: 0.1s;
 }
 .btn-backspace:active{
     opacity: 0.5;
 }
 .btn-adicionar{
-    background-color: #62D65F;
+    background-color: #25c01f;
     transition: 0.1s;
 }
 .btn-adicionar:active{
     opacity: 0.5;
 }
 .btn-remover{
-    background-color: #F56969;
+    background-color: #ec9614;
     transition: 0.1s;
 }
 .btn-remover:active{

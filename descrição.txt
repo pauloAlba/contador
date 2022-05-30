@@ -1,0 +1,3 @@
+Trago a voces um projetinho feito especialmente para resolver um problema particular do meu irmão. 
+O projeto trata-se de uma calculadora com lista. A ideida do projeto surgiu quando meu irmão comentou sobre uma funcionalidade que ele gostaria de ter em sua calculadora, pois quando ele vai as compras, costuma somar o preço dos produtos para ter uma noção do valor final, porém a calculadora tradicional não permite a ele realizar uma multiplicação e em seguida adicionar essa multiplicação ao valor anterior. A ideia da calculadora lista é simples, e voce pode conferir todos os detalhes do projeto nos links abaix:
+
