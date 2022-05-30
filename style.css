@@ -5,7 +5,7 @@
     branco1: #F5F5F5
     branco2: #EEEEEE
     branco3: #E1E1E1
-    laranja: #ec9614
+    laranja: #ec5814
 
 */
 
@@ -49,6 +49,7 @@ header{
     height: 10%;
     width: 100%;
     background-color: #383838;
+    background-color: #ec5814;
     border: none;
     color: #E1E1E1;
     border-radius: 5px;
@@ -113,7 +114,6 @@ main{
     height: 80%;
 }
 .total{
-    color: #62D65F;
     background-color: #383838;
     width: 75%;
     padding: 0 2%;
@@ -161,6 +161,7 @@ main{
     cursor: pointer;
     color: #E1E1E1;
     background-color: #ec9614;
+    background-color: #ec5814;
     border: none;
     font-size: 14px;
     border-radius: 5px;
@@ -261,6 +262,7 @@ main{
 }
 .btn-remover{
     background-color: #ec9614;
+    background-color: #ec5814;
     transition: 0.1s;
 }
 .btn-remover:active{

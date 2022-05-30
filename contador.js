@@ -41,7 +41,7 @@ let btnZerar = document.querySelector(".zerar")
 let total = document.querySelector(".total").textContent
 total = 0
 
-
+document.querySelector(".total").textContent = total.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'});
 
 btnAdicionar.addEventListener("click", somar)
 btnRemover.addEventListener("click", remover)
