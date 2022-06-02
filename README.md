@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>Conlist / Accountant</h1>
+  <h1>Conlist (PWA)</h1>
   
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.1.4-blue.svg?cacheSeconds=2592000" />
