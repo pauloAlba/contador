@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>Contador / Accountant</h1>
+  <h1>Conlist / Accountant</h1>
   
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.1.4-blue.svg?cacheSeconds=2592000" />
@@ -18,7 +18,7 @@
 
   </div border="1">
   <h2 align="left">Versão para Tablet / Smartphone</h2>
-  <img src="https://user-images.githubusercontent.com/17308374/170363144-8f9b94bf-31f3-4365-ab7e-39f1746fc99e.png">
+  <img src="https://user-images.githubusercontent.com/17308374/171053604-f809b461-3316-4b6b-9b7a-0c5aba9501ef.png">
   </div>
   
  <strong>Links para o projeto:</strong>
