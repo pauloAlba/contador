@@ -8,6 +8,7 @@ self.addEventListener('install', function(event){
                 './index.html',
                 './manifest.webmanifest',
                 './style.css',
+                './contador.js',
                 './index.js'
             ])
         })
